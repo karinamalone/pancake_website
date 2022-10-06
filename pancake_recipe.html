@@ -88,25 +88,47 @@
       <strong>Nutrition per pancake:</strong>
     </summary>
   <body>
-  <style>
-    table,
-    th,
-    td {
-      border: 1px solid black;
-      background-color: rgb(209,223,224); 
-    }
-  </style>
+    <style>
+      table, td, th {
+        border: 1px solid black;
+        background-color: rgb(255,255,224);
+      }
+      
+      table {
+        border-collapse: collapse;
+        width: 50%;
+      }
+      
+      th {
+        height: 10px;
+      }
+      </style>
   <body>
-    <table style="width: 100%">
+    <table style="width: 50%">
+  
       <tr>
-        <td>kcl<br />61</td>
-        <td>fat<br />2g</td>
-        <td>saturates<br />1g</td>
-        <td>carbs<br />7g</td>
-        <td>sugars<br />1g</td>
-        <td>fibre<br />1g</td>
-        <td>protein<br />3g</td>
-        <td>salt<br />0.1g</td>
+        <th>kcl:</th>
+        <th>fat:</th>
+        <th>saturates:</th>
+        <th>carbs:</th>
+      </tr>
+      <tr {text-align: center;}>
+        <td style="text-align:center">61</td>
+        <td style="text-align:center">2g</td>
+        <td style="text-align:center">1g</td>
+        <td style="text-align:center">7g</td>
+      </tr>
+      <tr>
+        <th>sugars:</th>
+        <th>fibre:</th>
+        <th>protein:</th>
+        <th>salt:</th>
+      </tr>
+      <tr>
+        <td style="text-align:center">1g</td>
+        <td style="text-align:center">1g</td>
+        <td style="text-align:center">3g</td>
+        <td style="text-align:center">0.1</td>
       </tr>
     </table>
     </details>
