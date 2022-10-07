@@ -6,39 +6,78 @@ body {
   font-family: "Lucida Console", "Courier New", monospace;
 }
 
-div.cookingTime {
-  margin-left: 26px;
-}
-
-#banner {
-  background-color: black;
-  height: 10000%;
-  position: relative;
-  width: 10000000%;
-  margin-top: 50px;s
-  margin-left: 500px;
-  margin-bottom: 10px;
-}
-
-h1 {
-  margin-top: -500px;
-  margin-bottom: 1px;
-}
-
-#pancakes {
-  position: relative;
-  top: -70px;
-  left: 850px;
-  margin: 0 0 0 15px;
-}
-
 #logo {
-  position: relative;
-  bottom: 50px;
-  left: 0px;
-  margin: 0 0 0 1px;
+  position: top;
+  width: 8%;
+  height: 10%;
+  margin: 0 0 0 0; /* top, right, bottom, left */
 }
 
-#title_section {
+#page_title {
   background-color: rgb(209, 223, 224);
 }
+
+#main_heading {
+  position: relative;
+  vertical-align: middle;
+  display: inline;
+}
+
+#pancake_stack {
+  vertical-align: right;
+  float: right;
+  display: inline;
+  width: 25%;
+  height: 50%;
+  margin: -1.5% 10% 0% 0%; /* top, right, bottom, left */
+}
+
+.top_section_style{
+  float: left:
+}
+
+#jack_black_link {
+  margin-left: 0.25%;
+}
+
+.recipe_info {
+  vertical-align: middle;
+  display: inline;
+}
+
+
+#recipe_info_cooking {
+  vertical-align: middle;
+  display: inline;
+  margin-left: 1.6%;
+}
+
+.recipe_info_image {
+  vertical-align: middle;
+  width: 1%;
+  height: 1%;
+}
+
+/* Nutrition Table Style: Start */
+table {
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th,
+td {
+  border: 1px solid black;
+  background-color: rgb(255, 255, 224);
+  padding: 8px;
+}
+
+thead th {
+  width: 25%;
+}
+/* Nutrition Table Style: End */
+
+.video {
+  width: 60%;
+  height: 30%;
+}
+
