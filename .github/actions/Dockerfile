@@ -1,3 +1,3 @@
 FROM nginx
-COPY ./pancake_website  /usr/share/nginx/html
+COPY ./website  /usr/share/nginx/html
 
