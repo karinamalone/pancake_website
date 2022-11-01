@@ -1,0 +1,164 @@
+body {
+  background-color: white;
+  margin: 0%;
+  padding: -10%;
+  color: black;
+  text-indent: 2px;
+  font-size: 20px;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.header {
+  background-color: black;
+  width: 100%;
+  height: 10%;
+  margin: 0%;
+  padding: -10%;
+}
+
+.navMenu {
+  position: top;
+  width: 100% auto;
+  padding: -10%;
+  transform: translate(50%, 50%); */ */
+  height: 13vh;
+  background-color: black;
+  margin: 0 0 0 0%; /* top, right, bottom, left */
+}
+
+
+.navMenu a {
+  color: #f6f4e6;
+  text-decoration: none;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  width: 80px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.navMenu a:hover {
+  color: #fddb3a;
+}
+
+.navMenu .dot {
+  width: 10%;
+  height: 10%;
+  background: #fddb3a;
+  border-radius: 50%;
+  opacity: 0;
+  -webkit-transform: translateX(10%);
+  transform: translateX(10%);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.navMenu a:nth-child(1):hover ~ .dot {
+  -webkit-transform: translateX(30%);
+  transform: translateX(30%);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+.navMenu a:nth-child(2):hover ~ .dot {
+  -webkit-transform: translateX(65%);
+  transform: translateX(65%);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+.navMenu a:nth-child(3):hover ~ .dot {
+  -webkit-transform: translateX(85%);
+  transform: translateX(85%);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+.navMenu a:nth-child(4):hover ~ .dot {
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+#logo {
+  position: top;
+  width: 10%;
+  /* display: inline; */
+  margin: 0% 0% 0% -0.1%; /* top, right, bottom, left */
+  padding: 0%;
+}
+
+#page_title {
+  background-color: rgb(209, 223, 224);
+}
+
+#main_heading {
+  position: relative;
+  vertical-align: middle;
+  display: inline;
+}
+
+#pancake_stack {
+  vertical-align: right;
+  float: right;
+  display: inline;
+  width: 25%;
+  height: 50%;
+  padding: -10%;
+  margin: -1.5% 10% 0% 0%; /* top, right, bottom, left */
+}
+
+.top_section_style {
+  float: left;
+}
+
+#jack_black_link {
+  margin-left: 0.25%;
+}
+
+.recipe_info {
+  vertical-align: middle;
+  display: inline;
+}
+
+#recipe_info_cooking {
+  vertical-align: middle;
+  display: inline;
+  margin-left: 1.6%;
+}
+
+.recipe_info_image {
+  vertical-align: middle;
+  width: 1%;
+  height: 1%;
+}
+
+/* Nutrition Table Style: Start */
+table {
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th,
+td {
+  border: 1px solid black;
+  background-color: #fddb3a;
+  padding: 8px;
+}
+
+thead th {
+  width: 25%;
+}
+/* Nutrition Table Style: End */
+
+.video {
+  width: 60%;
+  height: 30%;
+}
